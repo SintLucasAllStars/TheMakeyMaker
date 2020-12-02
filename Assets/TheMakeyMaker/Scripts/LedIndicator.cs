@@ -6,7 +6,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
 public class LedIndicator : MonoBehaviour
 {
-    public KeyCode respondTo;
+    public MakeyManager.Key respondTo;
     private Image _image;
     
     void Start()
@@ -15,7 +15,7 @@ public class LedIndicator : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKey(respondTo))
+        if (MakeyManager.Instance.GetKey(respondTo))
         {
             _image.color = Color.green;
         }

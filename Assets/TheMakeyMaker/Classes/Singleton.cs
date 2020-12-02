@@ -24,7 +24,7 @@ public class Singleton<T> : MonoBehaviour where T : Singleton<T>
                 if (m_Instance == null)
                 {
                     m_Instance = (T)FindObjectOfType(typeof(T));
-                    DontDestroyOnLoad(m_Instance.gameObject);
+                    //DontDestroyOnLoad(m_Instance.gameObject);
  
                     if (m_Instance == null)
                     {
@@ -37,6 +37,7 @@ public class Singleton<T> : MonoBehaviour where T : Singleton<T>
                     if (!m_Instance._initialized)
                     {
                         m_Instance.Init();
+                        m_Instance._initialized = true;
                     }
                 }
                 return m_Instance;
