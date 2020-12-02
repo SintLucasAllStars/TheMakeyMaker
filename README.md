@@ -39,7 +39,6 @@ TheMakeyMaker
 ├── Models
 ├── PostProcessing
 ├── Prefabs               //Prefabs used on the example scenes (You can use these on your scenes as well).
-├── Prefabs.meta
 ├── __ReadyToUse__        //Prefabs ready to use directly on your own scenes.
 │   ├── MakeyMakeyDebugOverlay.prefab //The debug overlay, just drag it to any scene and it should work.
 ├── _Scenes
@@ -60,6 +59,21 @@ TheMakeyMaker
 ## Example projects
 [WIP]
 
+#### Particle pressure
+Make some pressure plates, stomping pads (see below) or other contacts.
+
+Beam the particle scene into an interesting surface.
+
+Position the Attractors and the ParticleManagers in interesting locations on the projection. Keep in mind that you can set both permanent (always on) and reactive (to a MakeyMakey key) attractors and you can set each attractor to either attract or repel the particles and set their range and strength. Also you can create multiple Particle managers that can spawn different color particles in different locations.
+
+Place the pressure plates (or other contacts) on top of the reactive attractors, set up the keys they react to match.
+
+Now you can push the pressure plates to attract/repel the particles from that location.
+
+You can create mechanics with 2 or more players where you need to either co-operate or compete to get the particles to reach a certain spot or behave in a certain way.
+
+Or just make them look nice.
+
 ## Physical inputs and tools
 [WIP]
 
@@ -70,7 +84,7 @@ TheMakeyMaker
 * Scissors or/and cutter
 * Glue
 * Gaffer/Duct tape
-* Beamer
+* Beamer with support/tripod
 * Switches (Can be scavenged from retired electrics/electronics)
 * PushButtons (Can be scavenged from retired electrics/electronics)
 * LEDs
@@ -80,6 +94,9 @@ TheMakeyMaker
 
 #### Pressure plate
 [WIP] Three layers of material (cardboard, wood, etc...), two layers are contacts (ground and key) made with aluminum foil and the middle layer is an isolation layer with hole(s).
+
+#### Stomping pads
+Same as the pressure plates but for your feet. Same construction, the only difference would be size of the pad itself and size of the holes in the middle layer.
 
 #### The twister
 [WIP] (At least) two key contacts and a ground contact positioned in a way that you can only activate one at a time and to switch you need to swap hands or get extra creative with your body.
