@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Attractor : MonoBehaviour
-{
-    [SerializeField]
+{   
     private bool _active = true;
 
+    public enum AttractionMode{Attract, Reppel};
+
+    public AttractionMode Mode;
     public MakeyManager.Key respondTo;
-    public bool responsive = false;
+    public bool responsive;
     public float strength = 1.0f;
+    public float range = 100;
     public Vector3 Position
     {
         get
@@ -18,36 +21,28 @@ public class Attractor : MonoBehaviour
         }
     }
     
-    // Start is called before the first frame update
-    void Start()
+    public bool Active
     {
-        
+        get { return _active; }
+        set
+        {
+            _active = value;
+            if (_active)
+            {
+                transform.localScale = new Vector3(3f,3f,3f);
+            }
+            else
+            {
+                transform.localScale = new Vector3(1f,1f,1f);
+            }
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (responsive)
         {
-            SetActive(MakeyManager.Instance.GetKey(respondTo));
-        }
-    }
-
-    public bool isActive()
-    {
-        return _active;
-    }
-
-    public void SetActive(bool val)
-    {
-        _active = val;
-        if (_active)
-        {
-            transform.localScale = new Vector3(3f,3f,3f);
-        }
-        else
-        {
-            transform.localScale = new Vector3(1f,1f,1f);
+            Active =MakeyManager.Instance.GetKey(respondTo);
         }
     }
 }

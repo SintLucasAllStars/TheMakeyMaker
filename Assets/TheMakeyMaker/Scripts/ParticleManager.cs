@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
 public class ParticleManager : Singleton<ParticleManager>
@@ -9,6 +10,7 @@ public class ParticleManager : Singleton<ParticleManager>
     private List<Particle> _particles;
     private Attractor[] _atractors;
     public GameObject particlePrefab;
+    public float speed = 1.0f;
 
     void Start()
     {
@@ -27,7 +29,7 @@ public class ParticleManager : Singleton<ParticleManager>
         {
             for (int a = 0; a < _atractors.Length; a++)
             {
-                if (_atractors[a].isActive())
+                if (_atractors[a].Active)
                 {
                     _particles[p].Attract(_atractors[a]);
                 }
