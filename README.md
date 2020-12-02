@@ -26,6 +26,11 @@ You can check the inspector
 
 The MakeyManager holds key mapping information and offers an API to check for contacts.
 
+### The particles scene
+[WIP]
+This is a scene in the folder `_Scenes` that allows you to create simple unoptimized but very easy to modify particle systems. with attractors and repelents.
+You can easily attach a MakeyMakey key to activate each attractor and make interesting games and installation experiences out of modifying this scene.
+
 ### Folder structure
 [WIP]
 ```
