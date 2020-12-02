@@ -76,6 +76,7 @@ TheMakeyMaker
 * LEDs
 * 5V DC motors
 * Computer cooling fans
+* 5V input, 220V output Relay (Careful!!!)
 
 #### Pressure plate
 [WIP] Three layers of material (cardboard, wood, etc...), two layers are contacts (ground and key) made with aluminum foil and the middle layer is an isolation layer with hole(s).

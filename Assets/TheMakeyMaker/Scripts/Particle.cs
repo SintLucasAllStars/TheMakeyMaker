@@ -47,13 +47,17 @@ public class Particle : MonoBehaviour
         }
     }
 
-    public void Step()
+    public void Step(ParticleManager manager)
     {
+        Vector3 gravity = manager.transform.position - transform.position;
+        gravity.Normalize();
+        gravity *= manager.gravity;
+        _attraction += gravity * Time.deltaTime;
         _direction += _attraction;
         Vector3 drag = new Vector3();
         drag -= _direction * _dragCoeficient * Utils.Map(_direction.magnitude, 0, 15, 0, 1);
         _direction += drag;
-        transform.position += _direction * Time.deltaTime * ParticleManager.Instance.speed;
+        transform.position += _direction * Time.deltaTime * manager.speed;
         _attraction.Set(0,0,0);
     }
 }

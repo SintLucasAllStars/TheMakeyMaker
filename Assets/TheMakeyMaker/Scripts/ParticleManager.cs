@@ -4,13 +4,14 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-public class ParticleManager : Singleton<ParticleManager>
+public class ParticleManager : MonoBehaviour
 {
     public int _numParticles = 100;
     private List<Particle> _particles;
     private Attractor[] _atractors;
     public GameObject particlePrefab;
     public float speed = 1.0f;
+    public float gravity = 1.0f;
 
     void Start()
     {
@@ -35,7 +36,7 @@ public class ParticleManager : Singleton<ParticleManager>
                 }
             }
 
-            _particles[p].Step();
+            _particles[p].Step(this);
         }
     }
 }
