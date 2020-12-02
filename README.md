@@ -22,6 +22,8 @@ On the `__ReadyToUse__` folder you can find a prefab called MakeyMakeyDebugOverl
 You can check the inspector
 
 ### The MakeyManager
+[WIP]
+
 The MakeyManager holds key mapping information and offers an API to check for contacts.
 
 ### Folder structure
@@ -55,5 +57,34 @@ TheMakeyMaker
 # Ideas for projects using the tools
 [WIP]
 
-# Contributing
+## Example projects
+[WIP]
+
+## Physical inputs and tools
+[WIP]
+
+#### Interesting materials/tools to have at hand (Besides the MakeyMakey and the alligator clips)
+* Cardboard
+* Aluminum foil
+* Long conductive wire (The more the better)
+* Scissors or/and cutter
+* Glue
+* Gaffer/Duct tape
+* Beamer
+* Switches (Can be scavenged from retired electrics/electronics)
+* PushButtons (Can be scavenged from retired electrics/electronics)
+* LEDs
+* 5V DC motors
+* Computer cooling fans
+
+#### Pressure plate
+[WIP] Three layers of material (cardboard, wood, etc...), two layers are contacts (ground and key) made with aluminum foil and the middle layer is an isolation layer with hole(s).
+
+#### The twister
+[WIP] (At least) two key contacts and a ground contact positioned in a way that you can only activate one at a time and to switch you need to swap hands or get extra creative with your body.
+
+#### Arcade machine as a button
+[WIP]
+
+# Contributing to this project
 [WIP]
