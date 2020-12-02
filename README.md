@@ -23,8 +23,7 @@ You can check the inspector
 
 ### The MakeyManager
 [WIP]
-
-The MakeyManager holds key mapping information and offers an API to check for contacts.
+The MakeyManager holds key mapping information and offers an API to check for contacts. There is no need to put this on any scene or GameObject. It basically takes care of itself.
 
 ### The particles scene
 [WIP]
