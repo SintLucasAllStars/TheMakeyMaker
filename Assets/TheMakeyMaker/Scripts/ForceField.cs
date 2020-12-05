@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Attractor : MonoBehaviour
+public class ForceField : MonoBehaviour
 {   
     private bool _active = true;
 
-    public enum AttractionMode{Attract, Reppel};
+    public enum FieldMode{Attract, Reppel, Destroy};
 
-    public AttractionMode Mode;
+    public FieldMode Mode;
     public MakeyManager.Key respondTo;
     public bool responsive;
     public float strength = 1.0f;
