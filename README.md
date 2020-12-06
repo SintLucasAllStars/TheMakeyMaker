@@ -188,7 +188,7 @@ Three layers of material (cardboard, wood, etc...), two layers are contacts (gro
 
 ![Step 1](/DocImages/20201203_130804.jpg)
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/18AUZHwnVkE/0.jpg)](http://www.youtube.com/watch?v=18AUZHwnVkE) 
+[![Video Example](http://img.youtube.com/vi/18AUZHwnVkE/0.jpg)](http://www.youtube.com/watch?v=18AUZHwnVkE)
 
 #### Stomping pads
 Same as the pressure plates but for your feet. Same construction, the only difference would be size of the pad itself and size of the holes in the middle layer.
