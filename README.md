@@ -178,7 +178,17 @@ Or just make them look nice.
 * 5V input, 220V output Relay (Careful!!!)
 
 #### Pressure plate
-[WIP] Three layers of material (cardboard, wood, etc...), two layers are contacts (ground and key) made with aluminum foil and the middle layer is an isolation layer with hole(s).
+Three layers of material (cardboard, wood, etc...), two layers are contacts (ground and key) made with aluminum foil and the middle layer is an isolation layer with hole(s). Cover this isolation layer with tape in one side because contacts sometimes pass through cardboard.
+
+![Step 1](/DocImages/20201203_123026.jpg)
+
+![Step 1](/DocImages/20201203_124036.jpg)
+
+![Step 1](/DocImages/20201203_125852.jpg)
+
+![Step 1](/DocImages/20201203_130804.jpg)
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/18AUZHwnVkE/0.jpg)](http://www.youtube.com/watch?v=18AUZHwnVkE) 
 
 #### Stomping pads
 Same as the pressure plates but for your feet. Same construction, the only difference would be size of the pad itself and size of the holes in the middle layer.
