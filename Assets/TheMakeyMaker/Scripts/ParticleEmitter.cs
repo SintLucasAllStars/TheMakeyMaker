@@ -35,7 +35,9 @@ public class ParticleEmitter : MonoBehaviour
         switch (releaseMode)
         {
             case Mode.AtOnce:
+                _emitting = true;
                 AddParticles(numParticles);
+                _emitting = false;
                 break;
             case Mode.Timed:
                 StartCoroutine(TimedRelease(releasePulseInSeconds));
@@ -111,3 +113,4 @@ public class ParticleEmitter : MonoBehaviour
         _deadParticles.Add(p);
     }
 }
+

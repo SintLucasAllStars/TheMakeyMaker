@@ -28,6 +28,11 @@ public class MakeyManager : Singleton<MakeyManager>
         _mapping[Key.D] = KeyCode.D;
     }
 
+    public void RemapKey(Key key, KeyCode keycode)
+    {
+        _mapping[key] = keycode;
+    }
+    
     public bool GetKey(Key key)
     {
         return Input.GetKey(_mapping[key]);
@@ -42,6 +47,4 @@ public class MakeyManager : Singleton<MakeyManager>
     {
         return Input.GetKeyUp(_mapping[key]);
     }
-    
-    
 }

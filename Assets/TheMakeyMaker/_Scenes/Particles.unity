@@ -678,7 +678,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7703458345145565859, guid: ff9e938114a96c84e99bc7bea98864a1, type: 3}
       propertyPath: releaseMode
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703458345145565859, guid: ff9e938114a96c84e99bc7bea98864a1, type: 3}
+      propertyPath: keepEmitting
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7703458345145565859, guid: ff9e938114a96c84e99bc7bea98864a1, type: 3}
       propertyPath: numParticles
@@ -747,7 +751,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7703458345145565859, guid: ff9e938114a96c84e99bc7bea98864a1, type: 3}
       propertyPath: releaseMode
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703458345145565859, guid: ff9e938114a96c84e99bc7bea98864a1, type: 3}
+      propertyPath: keepEmitting
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7703458345145565859, guid: ff9e938114a96c84e99bc7bea98864a1, type: 3}
       propertyPath: numParticles
@@ -1182,7 +1190,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7703458345145565859, guid: ff9e938114a96c84e99bc7bea98864a1, type: 3}
       propertyPath: releaseMode
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703458345145565859, guid: ff9e938114a96c84e99bc7bea98864a1, type: 3}
+      propertyPath: keepEmitting
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7703458345145565859, guid: ff9e938114a96c84e99bc7bea98864a1, type: 3}
       propertyPath: numParticles
